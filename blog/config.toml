@@ -65,6 +65,11 @@ defaultContentLanguage = "zh"
         name = "标签"
         url = "/tags/"
         weight = 50
+    [[languages.zh.menus.main]]
+        identifier = "archives"
+        name = "归档"
+        url = "/archives/"
+        weight = 60
 
 [params]
     headline = "/images/default/headline.jpg"
