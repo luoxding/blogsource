@@ -4,7 +4,10 @@ date: 2023-12-09T16:16:47+08:00
 draft: false
 author: ""
 categories: "TeX"
-tags: ["test; demo; example"]
+tags: 
+- test
+- demo
+- example
 thumbnail: ""
 headline: 
     enabled: false

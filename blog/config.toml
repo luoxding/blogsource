@@ -11,56 +11,60 @@ paginate = 12
 # 多语言设置
 defaultContentLanguage = "zh"
 
-[language]
-    [languages.en]
-        title = "Walden"
-        languageName = "English"
-        languageCode = "en-US"
-        weight = 1
+# [language]
+#    [languages.en]
+#        title = "Walden"
+#        languageName = "English"
+#        languageCode = "en-US"
+#        weight = 1
 
-        # 用户参数
-        [languages.en.author]
-            name = "Homecat"
-            avatar = "images/default/avatar.jpg"
-            description = "Hi, I am Homecat, a Shaoxing native living in Shanghai. Reading, hiking, and coding are my hobbies. I have set my blog on Github to record interesting things and share with my friends."
-            email = "13050082@qq.com"
+#        # 用户参数
+#        [languages.en.author]
+#            name = "Homecat"
+#            avatar = "images/default/avatar.jpg"
+#            description = "Hi, I am Homecat, a Shaoxing native living in Shanghai. Reading, hiking, and coding are my hobbies. I have set my blog on Github to record interesting things and share with my friends."
+#            email = "13050082@qq.com"
 
     [languages.zh]
-        title = "瓦尔登湖"
+        title = "老罗博客"
         languageName = "中文"
         languageCode = "zh-Hans-CN"
         weight = 2
 
         [languages.zh.author]
-            name = "家猫"
+            name = "布衣老罗"
             avatar = "images/default/avatar.jpg"
-            description = "吾，家猫是也。生于越，学业于沪。喜读书闲游，好文字代码，置网站于 Github，录趣事以享亲友。"
-            email = "13050082@qq.com"
+            description = "维持生命真正需要的只有三样东西：空气、水和食物，除此之外的任何“必需品”都是不同程度地被包装出来的，人越活越复杂，自然也越活越累。"
+            email = "412947296@qq.com"
 
 # 主菜单
-[languages.en.menus]
-    [[languages.en.menus.main]]
-        identifier = "home"
-        name = "Home"
-        url = "/"
-        weight = 10
-    [[languages.en.menus.main]]
-        identifier = "blog"
-        name = "Blog"
-        url = "/blog/"
-        weight = 20
 
 [languages.zh.menus]
     [[languages.zh.menus.main]]
         identifier = "home"
         name = "首页"
-        url = "/zh/"
+        url = "/"
         weight = 10
     [[languages.zh.menus.main]]
         identifier = "blog"
         name = "博客"
-        url = "/zh/blog/"
+        url = "/blog/"
         weight = 20
+    [[languages.zh.menus.main]]
+        identifier = "note"
+        name = "笔记"
+        url = "/note/"
+        weight = 30
+    [[languages.zh.menus.main]]
+        identifier = "categories"
+        name = "分类"
+        url = "/categories/"
+        weight = 40
+    [[languages.zh.menus.main]]
+        identifier = "tags"
+        name = "标签"
+        url = "/tags/"
+        weight = 50
 
 [params]
     headline = "/images/default/headline.jpg"
