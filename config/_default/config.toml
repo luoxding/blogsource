@@ -1,5 +1,5 @@
-baseURL = "https://starifly.github.io/"
-title = "飞鸟的博客站"
+baseURL = "https://luoxding.github.io/"
+title = "布衣老罗的博客站"
 theme = ["zzo"]
 
 defaultContentLanguage = "zh"

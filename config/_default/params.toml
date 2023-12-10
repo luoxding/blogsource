@@ -1,4 +1,4 @@
-logoText = "飞鸟的博客站"
+logoText = "布衣老罗的博客站"
 logoType = "short" # long, short
 description = "The site of Flybird's Blog"
 custom_css = ["css/my.css", "css/fonts-zh.css", "css/fonts-code.css", "fontawesome/css/all.css", "css/pace.css"]
